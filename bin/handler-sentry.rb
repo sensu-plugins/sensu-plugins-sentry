@@ -26,7 +26,6 @@
 # and of course the sensu documentation....
 # Pieced together by: Josh Zitting (jzjoshzitting@gmail.com)
 
-require 'rubygems'
 require 'json'
 require 'time'
 require 'net/https'
