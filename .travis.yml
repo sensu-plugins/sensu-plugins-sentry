@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-sentry.gemspec
+- gem install sensu-plugins-sentry-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: Pj8EVC89xfaGfwhFjRQIySGMlAUe9pkX/hgSfVxVbOnW3R85/Rwsg20PPwWMxE2W5UvxO1UppuKZvX8ZptvjASswfAhTs0EPQGY9MWCuN2NIoNjiyVuytT8NlqB3zOsIEGTZAg34vZzVkkuymS4z1MEzs7SOj/VF3zoaJ5COn6U=
+    secure: gcqLB7PrgONQoYBmmo2+UKLZNzv+f0PZi+1g/nynN/tXtNHjJd39vqWTMNyFab7dSSPQCToQjmNyWao4mGbmZLUfQJGS4IMn8YZ/2MNnejS/vfG4xWG4d/tZXadjjqz4NvDnM471rsdajWZz/mSBGf0a8BHIl8DLw3fD/E+Avoo=
   gem: sensu-plugins-sentry
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
