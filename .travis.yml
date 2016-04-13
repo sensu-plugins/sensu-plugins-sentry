@@ -24,7 +24,7 @@ deploy:
     secure: gcqLB7PrgONQoYBmmo2+UKLZNzv+f0PZi+1g/nynN/tXtNHjJd39vqWTMNyFab7dSSPQCToQjmNyWao4mGbmZLUfQJGS4IMn8YZ/2MNnejS/vfG4xWG4d/tZXadjjqz4NvDnM471rsdajWZz/mSBGf0a8BHIl8DLw3fD/E+Avoo=
   gem: sensu-plugins-sentry
   on:
-    ags: true
+    tags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
