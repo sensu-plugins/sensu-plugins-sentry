@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
+
+## [1.0.0] - 2017-06-27
 ### Added
 - Support for Ruby 2.3 and 2.4 (@eheydrick)
 
@@ -23,5 +25,6 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ### Added
 - initial release
 
-[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-sentry/compare/0.0.2...HEAD
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-sentry/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/sensu-plugins/sensu-plugins-sentry/compare/0.0.2...1.0.0
 [0.0.2]: https://github.com/sensu-plugins/sensu-plugins-sentry/compare/0.0.1...0.0.2
